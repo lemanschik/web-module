@@ -69,6 +69,8 @@ Note: Genesis Boot could be understood as ephemeral pinning. The CIDs' data is f
 
 nodes running in the browser can connect to nodes via the WebRTC Star or other cluster transports.
 
+## web-modules is a unified method/framework to create distributed applications. 
+
 ## web-modules is a protocol:
 - Defines a content-addressed device or system
 - Coordinates content delivery via a capability based protocol full isolation like vm's
