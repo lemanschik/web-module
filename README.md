@@ -1,4 +1,4 @@
-# web-modules a Standard for the Web 4.0
+# web-modules
 A Web Module Loader can also be used in WInterCG Standard Supporting Runtimes
 
 This Implements a basic Module Loader for Web Runtimes it builds the backbone for the Web 4.0 as this is defined out of
@@ -9,8 +9,17 @@ I have no plans to publish a incremental runtime at present as chromium exists f
 
 This has changed i now will start by kicking of what i implement my self i will simply call it cloud and it will be a rolling release. 
 
-https://github.com/component-manager/cloud
-
+- @component-manager/create https://github.com/component-manager/create
+  - /cloud/device/*
+    - @component-manager/create https://github.com/component-manager/create 
+      - ./node A basic NodeJS Device/Component
+    - @component-manager/cloud https://github.com/component-manager/cloud 
+      - ./node/node_modules/@component-manager/cloud Manages Clouds /cloud where node got generated. like npm but for the cloud includes pnp support.
+    - @component-manager/chromium https://github.com/component-manager/chromium
+      - ./chromium chromium-platform related modules.
+      - ./node/node_modules/@component-manager/chromium nodejs compatible chromium modules.
+      
+      
 ## Preamble
 
 web-modules has evolved the infrastructure of the Web, with many things we've learned from successful systems, like Zircon, v8, Git, GN, Ninja, Goma, and many, many more. This is the sort of thing that would have come out of ARPA/DARPA, IETF, or Bell Labs in another age. Web 4.0 state 2 after genesis boot so V_ETH2 on top of WebRTC for interop with the existing legacy web. For the tech people who wonder about ETH2 Yes that Means Ethernet v2 the none 1500 MTU Bound Limited version. That you know still exist even with TCP/IP v6 as it is in herent in other places your kernel always joins the packets. This is only one example of old fundamental Flaws that exist since the begining of the Web there we calculated that 1500.
