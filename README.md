@@ -1,6 +1,11 @@
 # web-modules
 A Web Module Loader can also be used in WInterCG Standard Supporting Runtimes
 
+for wasm modules using the web-modules api see: https://github.com/lemanschik/wasm-component-system/blob/main/README.md 
+
+it is already rolled out nothing needed you can use the patterns today to compose software out of WASM Modules this implements
+the missing concept of a module system or component system for wasm which runtimes like wasmer tryed to resolve.
+
 This Implements a basic Module Loader for Web Runtimes it builds the backbone for the Web 4.0 as this is defined out of
 ECMAScript Modules and Asset References. This offers the Basic Loading and Versioning Structure for the Code. 
 
