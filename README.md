@@ -1,5 +1,11 @@
 # web-modules
 A Web Module Loader can also be used in WInterCG Standard Supporting Runtimes
+We stoped working on our loader at present at try to integrate into the vite ecosystem as it follows already many of our concepts. 
+As most people understand the vite concepts and they get teached even if the people do not know what they are doing that is a good thing
+
+when we improve the vite ecosystem with a git plugin for input we are near done with deprecation of nodejs. 
+
+see: why-you-should-switch-away-from-npm-nodejs
 
 for wasm modules using the web-modules api see: https://github.com/lemanschik/wasm-component-system/blob/main/README.md 
 
