@@ -1,4 +1,11 @@
 ## deprecated: In favor of Stealify Lang and its Module System as also Language Implementation Framework.
+Stealify Lang Modules are much more great the allows you to express a html module like
+```ts
+const html = await import('stealify:lang/html');
+const { htmlDoc, appendDoc } = await import('stealify:lang/html/doc')
+const stream = html`<div><h1>Hello `;
+
+```
 
 # web-modules with the vite loader
 We stoped working on our loader at present and try to integrate into the vite ecosystem as it follows already many of our concepts. 
