@@ -1,3 +1,5 @@
+## deprecated: In favor of Stealify Lang and its Module System as also Language Implementation Framework.
+
 # web-modules with the vite loader
 We stoped working on our loader at present and try to integrate into the vite ecosystem as it follows already many of our concepts. 
 As most people understand the vite concepts and they get teached even if the people do not know what they are doing that is a good thing.
